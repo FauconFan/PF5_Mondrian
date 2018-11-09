@@ -25,7 +25,7 @@ type config =
 type label =
   {
     coord : int;
-    colored : bool;
+    color : color option;
   }
 
 type bsp =

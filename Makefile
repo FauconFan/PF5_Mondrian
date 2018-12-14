@@ -32,6 +32,8 @@ MLI_FILES = $(ML_FILES:%.ml=%.mli)
 
 SOURCES = $(MLI_FILES) $(ML_FILES) $(MAIN)
 
+all: nc
+
 help:
 	@printf "Useful commands for this Makefile:\\n"
 	@printf " - help : prints this message\\n"
